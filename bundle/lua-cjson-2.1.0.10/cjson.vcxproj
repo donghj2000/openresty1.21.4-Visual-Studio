@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5DA88389-DA17-3464-9641-24FBB0C71B8D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>cjson</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+    <WindowsTargetPlatformVersion>10.0.10240.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\bin</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cjson.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cjson</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Anaconda3\MyCode\Nginx\openresty-1.21.4.1\bundle\lua-cjson-2.1.0.10\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cjson.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cjson</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Anaconda3\MyCode\Nginx\openresty-1.21.4.1\bundle\lua-cjson-2.1.0.10\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">cjson.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">cjson</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Anaconda3\MyCode\Nginx\openresty-1.21.4.1\bundle\lua-cjson-2.1.0.10\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">cjson.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">cjson</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LibraryPath>D:\Anaconda3\MyCode\Nginx\openresty-1.21.4.1\bundle\LuaJIT-2.1-20220411\src;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Anaconda3\MyCode\Nginx\openresty-1.21.4.1\bundle\LuaJIT-2.1-20220411\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;DISABLE_INVALID_NUMBERS;CMAKE_INTDIR="Debug";cjson_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;DISABLE_INVALID_NUMBERS;CMAKE_INTDIR=\"Debug\";cjson_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Program Files (x86)\Lua\5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Program Files (x86)\Lua\5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>lua51.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/Debug/cjson.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/Debug/cjson.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Program Files (x86)\Lua\5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;DISABLE_INVALID_NUMBERS;CMAKE_INTDIR="Release";cjson_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;DISABLE_INVALID_NUMBERS;CMAKE_INTDIR=\"Release\";cjson_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Program Files (x86)\Lua\5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Program Files (x86)\Lua\5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\Program Files (x86)\Lua\5.1\lib\lua51.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/Release/cjson.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/Release/cjson.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Program Files (x86)\Lua\5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;DISABLE_INVALID_NUMBERS;CMAKE_INTDIR="MinSizeRel";cjson_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;DISABLE_INVALID_NUMBERS;CMAKE_INTDIR=\"MinSizeRel\";cjson_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Program Files (x86)\Lua\5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Program Files (x86)\Lua\5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\Program Files (x86)\Lua\5.1\lib\lua51.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/MinSizeRel/cjson.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/MinSizeRel/cjson.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Program Files (x86)\Lua\5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;DISABLE_INVALID_NUMBERS;CMAKE_INTDIR="RelWithDebInfo";cjson_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;DISABLE_INVALID_NUMBERS;CMAKE_INTDIR=\"RelWithDebInfo\";cjson_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Program Files (x86)\Lua\5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Program Files (x86)\Lua\5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\Program Files (x86)\Lua\5.1\lib\lua51.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/RelWithDebInfo/cjson.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/RelWithDebInfo/cjson.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Anaconda3\MyCode\Nginx\openresty-1.21.4.1\bundle\lua-cjson-2.1.0.10\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10 -BD:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10 --check-stamp-file D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Anaconda3\MyCode\Nginx\openresty-1.21.4.1\bundle\lua-cjson-2.1.0.10\CMakeFiles\3.26.0-rc5\CMakeCCompiler.cmake;D:\Anaconda3\MyCode\Nginx\openresty-1.21.4.1\bundle\lua-cjson-2.1.0.10\CMakeFiles\3.26.0-rc5\CMakeRCCompiler.cmake;D:\Anaconda3\MyCode\Nginx\openresty-1.21.4.1\bundle\lua-cjson-2.1.0.10\CMakeFiles\3.26.0-rc5\CMakeSystem.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseLibraryArchitecture.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystem.cmake.in;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\LCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.26\Modules\FindLua.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Anaconda3\MyCode\Nginx\openresty-1.21.4.1\bundle\lua-cjson-2.1.0.10\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10 -BD:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10 --check-stamp-file D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Anaconda3\MyCode\Nginx\openresty-1.21.4.1\bundle\lua-cjson-2.1.0.10\CMakeFiles\3.26.0-rc5\CMakeCCompiler.cmake;D:\Anaconda3\MyCode\Nginx\openresty-1.21.4.1\bundle\lua-cjson-2.1.0.10\CMakeFiles\3.26.0-rc5\CMakeRCCompiler.cmake;D:\Anaconda3\MyCode\Nginx\openresty-1.21.4.1\bundle\lua-cjson-2.1.0.10\CMakeFiles\3.26.0-rc5\CMakeSystem.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseLibraryArchitecture.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystem.cmake.in;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\LCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.26\Modules\FindLua.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Anaconda3\MyCode\Nginx\openresty-1.21.4.1\bundle\lua-cjson-2.1.0.10\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10 -BD:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10 --check-stamp-file D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Anaconda3\MyCode\Nginx\openresty-1.21.4.1\bundle\lua-cjson-2.1.0.10\CMakeFiles\3.26.0-rc5\CMakeCCompiler.cmake;D:\Anaconda3\MyCode\Nginx\openresty-1.21.4.1\bundle\lua-cjson-2.1.0.10\CMakeFiles\3.26.0-rc5\CMakeRCCompiler.cmake;D:\Anaconda3\MyCode\Nginx\openresty-1.21.4.1\bundle\lua-cjson-2.1.0.10\CMakeFiles\3.26.0-rc5\CMakeSystem.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseLibraryArchitecture.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystem.cmake.in;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\LCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.26\Modules\FindLua.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Anaconda3\MyCode\Nginx\openresty-1.21.4.1\bundle\lua-cjson-2.1.0.10\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10 -BD:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10 --check-stamp-file D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Anaconda3\MyCode\Nginx\openresty-1.21.4.1\bundle\lua-cjson-2.1.0.10\CMakeFiles\3.26.0-rc5\CMakeCCompiler.cmake;D:\Anaconda3\MyCode\Nginx\openresty-1.21.4.1\bundle\lua-cjson-2.1.0.10\CMakeFiles\3.26.0-rc5\CMakeRCCompiler.cmake;D:\Anaconda3\MyCode\Nginx\openresty-1.21.4.1\bundle\lua-cjson-2.1.0.10\CMakeFiles\3.26.0-rc5\CMakeSystem.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseLibraryArchitecture.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystem.cmake.in;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\LCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.26\Modules\FindLua.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Anaconda3\MyCode\Nginx\openresty-1.21.4.1\bundle\lua-cjson-2.1.0.10\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Anaconda3\MyCode\Nginx\openresty-1.21.4.1\bundle\lua-cjson-2.1.0.10\lua_cjson.c" />
+    <ClCompile Include="D:\Anaconda3\MyCode\Nginx\openresty-1.21.4.1\bundle\lua-cjson-2.1.0.10\strbuf.c" />
+    <ClCompile Include="D:\Anaconda3\MyCode\Nginx\openresty-1.21.4.1\bundle\lua-cjson-2.1.0.10\fpconv.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Anaconda3\MyCode\Nginx\openresty-1.21.4.1\bundle\lua-cjson-2.1.0.10\ZERO_CHECK.vcxproj">
+      <Project>{5EC9EE1C-886D-3A73-A013-B662051989BA}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

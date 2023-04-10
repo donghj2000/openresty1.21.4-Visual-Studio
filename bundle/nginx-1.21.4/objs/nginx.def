@@ -1,0 +1,3 @@
+EXPORTS
+	ngx_http_lua_ffi_var_get @1
+	

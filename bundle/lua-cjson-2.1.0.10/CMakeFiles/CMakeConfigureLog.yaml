@@ -1,0 +1,171 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The system is: Windows - 6.1.7601 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) 生成引擎版本 14.0.23107.0
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2023/3/30 星期四 上午 8:20:34。
+      节点 1 上的项目“D:\\Anaconda3\\MyCode\\Nginx\\openresty-1.21.4.1\\bundle\\lua-cjson-2.1.0.10\\CMakeFiles\\3.26.0-rc5\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\x86_amd64\\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc140.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\x86_amd64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Anaconda3\\MyCode\\Nginx\\openresty-1.21.4.1\\bundle\\lua-cjson-2.1.0.10\\CMakeFiles\\3.26.0-rc5\\CompilerIdC\\.\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\x86_amd64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“D:\\Anaconda3\\MyCode\\Nginx\\openresty-1.21.4.1\\bundle\\lua-cjson-2.1.0.10\\CMakeFiles\\3.26.0-rc5\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:00.43
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/CMakeFiles/3.26.0-rc5/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/CMakeFiles/CMakeScratch/TryCompile-dgscbl"
+      binary: "D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/CMakeFiles/CMakeScratch/TryCompile-dgscbl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/CMakeFiles/CMakeScratch/TryCompile-dgscbl
+        
+        Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_3e56c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=14.0 /v:n && Microsoft (R) 生成引擎版本 14.0.23107.0
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/3/30 星期四 上午 8:20:35。
+        节点 1 上的项目“D:\\Anaconda3\\MyCode\\Nginx\\openresty-1.21.4.1\\bundle\\lua-cjson-2.1.0.10\\CMakeFiles\\CMakeScratch\\TryCompile-dgscbl\\cmTC_3e56c.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_3e56c.dir\\Debug\\”。
+          正在创建目录“D:\\Anaconda3\\MyCode\\Nginx\\openresty-1.21.4.1\\bundle\\lua-cjson-2.1.0.10\\CMakeFiles\\CMakeScratch\\TryCompile-dgscbl\\Debug\\”。
+          正在创建目录“cmTC_3e56c.dir\\Debug\\cmTC_3e56c.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_3e56c.dir\\Debug\\cmTC_3e56c.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\x86_amd64\\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3e56c.dir\\Debug\\\\" /Fd"cmTC_3e56c.dir\\Debug\\vc140.pdb" /Gd /TC /errorReport:queue "D:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W3 /WX- /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3e56c.dir\\Debug\\\\" /Fd"cmTC_3e56c.dir\\Debug\\vc140.pdb" /Gd /TC /errorReport:queue "D:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\x86_amd64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Anaconda3\\MyCode\\Nginx\\openresty-1.21.4.1\\bundle\\lua-cjson-2.1.0.10\\CMakeFiles\\CMakeScratch\\TryCompile-dgscbl\\Debug\\cmTC_3e56c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/CMakeFiles/CMakeScratch/TryCompile-dgscbl/Debug/cmTC_3e56c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/CMakeFiles/CMakeScratch/TryCompile-dgscbl/Debug/cmTC_3e56c.lib" /MACHINE:X64  /machine:x64 cmTC_3e56c.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_3e56c.vcxproj -> D:\\Anaconda3\\MyCode\\Nginx\\openresty-1.21.4.1\\bundle\\lua-cjson-2.1.0.10\\CMakeFiles\\CMakeScratch\\TryCompile-dgscbl\\Debug\\cmTC_3e56c.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_3e56c.dir\\Debug\\cmTC_3e56c.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_3e56c.dir\\Debug\\cmTC_3e56c.tlog\\cmTC_3e56c.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Anaconda3\\MyCode\\Nginx\\openresty-1.21.4.1\\bundle\\lua-cjson-2.1.0.10\\CMakeFiles\\CMakeScratch\\TryCompile-dgscbl\\cmTC_3e56c.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.54
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "D:/Program Files/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:48 (CHECK_SYMBOL_EXISTS)"
+    checks:
+      - "Looking for isinf"
+    directories:
+      source: "D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/CMakeFiles/CMakeScratch/TryCompile-g6l2xe"
+      binary: "D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/CMakeFiles/CMakeScratch/TryCompile-g6l2xe"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_ISINF"
+      cached: true
+      stdout: |
+        Change Dir: D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/CMakeFiles/CMakeScratch/TryCompile-g6l2xe
+        
+        Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_53dfe.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=14.0 /v:n && Microsoft (R) 生成引擎版本 14.0.23107.0
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/3/30 星期四 上午 8:20:36。
+        节点 1 上的项目“D:\\Anaconda3\\MyCode\\Nginx\\openresty-1.21.4.1\\bundle\\lua-cjson-2.1.0.10\\CMakeFiles\\CMakeScratch\\TryCompile-g6l2xe\\cmTC_53dfe.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_53dfe.dir\\Debug\\”。
+          正在创建目录“D:\\Anaconda3\\MyCode\\Nginx\\openresty-1.21.4.1\\bundle\\lua-cjson-2.1.0.10\\CMakeFiles\\CMakeScratch\\TryCompile-g6l2xe\\Debug\\”。
+          正在创建目录“cmTC_53dfe.dir\\Debug\\cmTC_53dfe.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_53dfe.dir\\Debug\\cmTC_53dfe.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\x86_amd64\\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_53dfe.dir\\Debug\\\\" /Fd"cmTC_53dfe.dir\\Debug\\vc140.pdb" /Gd /TC /errorReport:queue "D:\\Anaconda3\\MyCode\\Nginx\\openresty-1.21.4.1\\bundle\\lua-cjson-2.1.0.10\\CMakeFiles\\CMakeScratch\\TryCompile-g6l2xe\\CheckSymbolExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W3 /WX- /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_53dfe.dir\\Debug\\\\" /Fd"cmTC_53dfe.dir\\Debug\\vc140.pdb" /Gd /TC /errorReport:queue "D:\\Anaconda3\\MyCode\\Nginx\\openresty-1.21.4.1\\bundle\\lua-cjson-2.1.0.10\\CMakeFiles\\CMakeScratch\\TryCompile-g6l2xe\\CheckSymbolExists.c"
+          
+          CheckSymbolExists.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\x86_amd64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Anaconda3\\MyCode\\Nginx\\openresty-1.21.4.1\\bundle\\lua-cjson-2.1.0.10\\CMakeFiles\\CMakeScratch\\TryCompile-g6l2xe\\Debug\\cmTC_53dfe.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/CMakeFiles/CMakeScratch/TryCompile-g6l2xe/Debug/cmTC_53dfe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/CMakeFiles/CMakeScratch/TryCompile-g6l2xe/Debug/cmTC_53dfe.lib" /MACHINE:X64  /machine:x64 cmTC_53dfe.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_53dfe.vcxproj -> D:\\Anaconda3\\MyCode\\Nginx\\openresty-1.21.4.1\\bundle\\lua-cjson-2.1.0.10\\CMakeFiles\\CMakeScratch\\TryCompile-g6l2xe\\Debug\\cmTC_53dfe.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_53dfe.dir\\Debug\\cmTC_53dfe.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_53dfe.dir\\Debug\\cmTC_53dfe.tlog\\cmTC_53dfe.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Anaconda3\\MyCode\\Nginx\\openresty-1.21.4.1\\bundle\\lua-cjson-2.1.0.10\\CMakeFiles\\CMakeScratch\\TryCompile-g6l2xe\\cmTC_53dfe.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.50
+        
+      exitCode: 0
+...

@@ -1,0 +1,15 @@
+﻿生成启动时间为 2023/3/30 星期四 上午 9:29:14。
+     1>项目“D:\Anaconda3\MyCode\Nginx\openresty-1.21.4.1\bundle\lua-cjson-2.1.0.10\cjson.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\cjson.dll" /INCREMENTAL /NOLOGO lua51.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/Debug/cjson.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/Debug/cjson.lib" /MACHINE:X64  /machine:x64 /DLL cjson.dir\Debug\lua_cjson.obj
+         cjson.dir\Debug\strbuf.obj
+         cjson.dir\Debug\fpconv.obj
+           正在创建库 D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/Debug/cjson.lib 和对象 D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/Debug/cjson.exp
+     1>LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+         cjson.vcxproj -> D:\Anaconda3\MyCode\Nginx\openresty-1.21.4.1\bundle\lua-cjson-2.1.0.10\..\..\bin\cjson.dll
+     1>已完成生成项目“D:\Anaconda3\MyCode\Nginx\openresty-1.21.4.1\bundle\lua-cjson-2.1.0.10\cjson.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:00.68

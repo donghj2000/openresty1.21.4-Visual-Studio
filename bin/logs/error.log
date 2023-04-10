@@ -1,0 +1,59 @@
+2023/04/10 12:57:11 [debug] 26000#25992: bind() 0.0.0.0:8000 #400 
+2023/04/10 12:57:11 [debug] 26000#25992: bind() 0.0.0.0:81 #404 
+2023/04/10 12:57:11 [notice] 26000#25992: using the "select" event method
+2023/04/10 12:57:11 [notice] 26000#25992: openresty/1.21.4.1
+2023/04/10 12:57:11 [info] 26000#25992: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2023/04/10 12:57:11 [notice] 26000#25992: create thread 25924
+2023/04/10 12:57:11 [debug] 26000#25924: malloc: 00000000026BB980:16384
+2023/04/10 12:57:11 [debug] 26000#25924: malloc: 00000000026D92A0:237568
+2023/04/10 12:57:11 [debug] 26000#25924: malloc: 00000000027132E0:147456
+2023/04/10 12:57:11 [debug] 26000#25924: malloc: 0000000002737320:147456
+2023/04/10 12:57:11 [debug] 26000#25924: select add event fd:400 ev:0
+2023/04/10 12:57:11 [debug] 26000#25924: select add event fd:404 ev:0
+2023/04/10 12:57:11 [debug] 26000#25924: worker cycle
+2023/04/10 12:57:11 [debug] 26000#25924: select event: fd:400 wr:0
+2023/04/10 12:57:11 [debug] 26000#25924: select event: fd:404 wr:0
+2023/04/10 12:57:11 [debug] 26000#25924: select timer: 500
+2023/04/10 12:57:12 [debug] 26000#25924: select ready 0
+2023/04/10 12:57:12 [debug] 26000#25924: timer delta: 549
+2023/04/10 12:57:12 [debug] 26000#25924: worker cycle
+2023/04/10 12:57:12 [debug] 26000#25924: select event: fd:400 wr:0
+2023/04/10 12:57:12 [debug] 26000#25924: select event: fd:404 wr:0
+2023/04/10 12:57:12 [debug] 26000#25924: select timer: 500
+2023/04/10 12:57:13 [debug] 26000#25924: select ready 0
+2023/04/10 12:57:13 [debug] 26000#25924: timer delta: 500
+2023/04/10 12:57:13 [debug] 26000#25924: worker cycle
+2023/04/10 12:57:13 [debug] 26000#25924: select event: fd:400 wr:0
+2023/04/10 12:57:13 [debug] 26000#25924: select event: fd:404 wr:0
+2023/04/10 12:57:13 [debug] 26000#25924: select timer: 500
+2023/04/10 12:57:13 [debug] 26000#25924: select ready 0
+2023/04/10 12:57:13 [debug] 26000#25924: timer delta: 500
+2023/04/10 12:57:13 [debug] 26000#25924: worker cycle
+2023/04/10 12:57:13 [debug] 26000#25924: select event: fd:400 wr:0
+2023/04/10 12:57:13 [debug] 26000#25924: select event: fd:404 wr:0
+2023/04/10 12:57:13 [debug] 26000#25924: select timer: 500
+2023/04/10 12:57:14 [debug] 26000#25924: select ready 0
+2023/04/10 12:57:14 [debug] 26000#25924: timer delta: 512
+2023/04/10 12:57:14 [debug] 26000#25924: worker cycle
+2023/04/10 12:57:14 [debug] 26000#25924: select event: fd:400 wr:0
+2023/04/10 12:57:14 [debug] 26000#25924: select event: fd:404 wr:0
+2023/04/10 12:57:14 [debug] 26000#25924: select timer: 500
+2023/04/10 12:57:14 [debug] 26000#25924: select ready 0
+2023/04/10 12:57:14 [debug] 26000#25924: timer delta: 515
+2023/04/10 12:57:14 [debug] 26000#25924: worker cycle
+2023/04/10 12:57:14 [debug] 26000#25924: select event: fd:400 wr:0
+2023/04/10 12:57:14 [debug] 26000#25924: select event: fd:404 wr:0
+2023/04/10 12:57:14 [debug] 26000#25924: select timer: 500
+2023/04/10 12:57:15 [debug] 26000#25924: select ready 0
+2023/04/10 12:57:15 [debug] 26000#25924: timer delta: 500
+2023/04/10 12:57:15 [debug] 26000#25924: worker cycle
+2023/04/10 12:57:15 [debug] 26000#25924: select event: fd:400 wr:0
+2023/04/10 12:57:15 [debug] 26000#25924: select event: fd:404 wr:0
+2023/04/10 12:57:15 [debug] 26000#25924: select timer: 500
+2023/04/10 12:57:15 [debug] 26000#25924: select ready 0
+2023/04/10 12:57:15 [debug] 26000#25924: timer delta: 515
+2023/04/10 12:57:15 [debug] 26000#25924: worker cycle
+2023/04/10 12:57:15 [debug] 26000#25924: select event: fd:400 wr:0
+2023/04/10 12:57:15 [debug] 26000#25924: select event: fd:404 wr:0
+2023/04/10 12:57:15 [debug] 26000#25924: select timer: 500
+2023/04/10 12:57:15 [notice] 26000#26484: console closing, exiting

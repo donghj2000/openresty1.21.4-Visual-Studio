@@ -1,0 +1,176 @@
+
+
+----------------------------------------
+checking for gcc -pipe switch
+
+
+----------------------------------------
+checking for -Wl,-E switch
+
+/usr/lib/gcc/x86_64-pc-msys/11.2.0/../../../../x86_64-pc-msys/bin/ld: warning: --export-dynamic is not supported for PE+ targets, did you mean --export-all-symbols?
+
+----------------------------------------
+checking for gcc builtin atomic operations
+
+
+----------------------------------------
+checking for C99 variadic macros
+
+
+----------------------------------------
+checking for gcc variadic macros
+
+
+----------------------------------------
+checking for gcc builtin 64 bit byteswap
+
+
+----------------------------------------
+checking for LuaJIT library in /d/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/luajit-root and /d/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/luajit-root/include/luajit-2.1 (win32)
+
+
+----------------------------------------
+checking for LuaJIT 2.x
+
+
+----------------------------------------
+checking for Lua language 5.1
+
+
+----------------------------------------
+checking for LuaJIT has FFI
+
+
+----------------------------------------
+checking for export symbols by default (-E)
+
+/usr/lib/gcc/x86_64-pc-msys/11.2.0/../../../../x86_64-pc-msys/bin/ld: warning: --export-dynamic is not supported for PE+ targets, did you mean --export-all-symbols?
+
+----------------------------------------
+checking for export symbols by default (--export-all-symbols)
+
+
+----------------------------------------
+checking for SO_PASSCRED
+
+
+----------------------------------------
+checking for SA_RESTART
+
+
+----------------------------------------
+checking for malloc_trim
+
+0
+----------------------------------------
+checking for pipe2
+
+objs/autotest.c: In function 'main':
+objs/autotest.c:7:16: error: implicit declaration of function 'pipe2' [-Werror=implicit-function-declaration]
+    7 |     int fd[2]; pipe2(fd, O_CLOEXEC|O_NONBLOCK);;
+      |                ^~~~~
+cc1: all warnings being treated as errors
+----------
+
+#include <sys/types.h>
+
+#include <fcntl.h>
+
+int main(void) {
+    int fd[2]; pipe2(fd, O_CLOEXEC|O_NONBLOCK);;
+    return 0;
+}
+
+----------
+gcc -Werror -Wall -DNGX_LUA_USE_ASSERT -DNGX_LUA_ABORT_AT_PANIC -O2 -DFD_SETSIZE=1024 -o objs/autotest objs/autotest.c
+----------
+
+----------------------------------------
+checking for signalfd
+
+objs/autotest.c: In function 'main':
+objs/autotest.c:7:19: error: 'set' may be used uninitialized [-Werror=maybe-uninitialized]
+    7 |     sigset_t set; signalfd(-1, &set, SFD_NONBLOCK|SFD_CLOEXEC);;
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from objs/autotest.c:4:
+/usr/include/sys/signalfd.h:48:12: note: by argument 2 of type 'const sigset_t *' {aka 'const long unsigned int *'} to 'signalfd' declared here
+   48 | extern int signalfd (int, const sigset_t *, int);
+      |            ^~~~~~~~
+objs/autotest.c:7:14: note: 'set' declared here
+    7 |     sigset_t set; signalfd(-1, &set, SFD_NONBLOCK|SFD_CLOEXEC);;
+      |              ^~~
+cc1: all warnings being treated as errors
+----------
+
+#include <sys/types.h>
+
+#include <sys/signalfd.h>
+
+int main(void) {
+    sigset_t set; signalfd(-1, &set, SFD_NONBLOCK|SFD_CLOEXEC);;
+    return 0;
+}
+
+----------
+gcc -Werror -Wall -DNGX_LUA_USE_ASSERT -DNGX_LUA_ABORT_AT_PANIC -O2 -DFD_SETSIZE=1024 -o objs/autotest objs/autotest.c
+----------
+
+----------------------------------------
+checking for execvpe
+
+objs/autotest.c: In function 'main':
+objs/autotest.c:7:32: error: implicit declaration of function 'execvpe' [-Werror=implicit-function-declaration]
+    7 |     char* argv[] = {"/bin/sh"};execvpe("/bin/sh", argv, NULL);;
+      |                                ^~~~~~~
+cc1: all warnings being treated as errors
+----------
+
+#include <sys/types.h>
+
+
+
+int main(void) {
+    char* argv[] = {"/bin/sh"};execvpe("/bin/sh", argv, NULL);;
+    return 0;
+}
+
+----------
+gcc -Werror -Wall -DNGX_LUA_USE_ASSERT -DNGX_LUA_ABORT_AT_PANIC -O2 -DFD_SETSIZE=1024 -o objs/autotest objs/autotest.c
+----------
+
+----------------------------------------
+checking for LuaJIT library in /d/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/luajit-root and /d/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/luajit-root/include/luajit-2.1 (win32)
+
+
+----------------------------------------
+checking for LuaJIT 2.x
+
+
+----------------------------------------
+checking for Lua language 5.1
+
+
+----------------------------------------
+checking for LuaJIT has FFI
+
+
+----------------------------------------
+checking for export symbols by default (-E)
+
+/usr/lib/gcc/x86_64-pc-msys/11.2.0/../../../../x86_64-pc-msys/bin/ld: warning: --export-dynamic is not supported for PE+ targets, did you mean --export-all-symbols?
+
+----------------------------------------
+checking for export symbols by default (--export-all-symbols)
+
+
+----------------------------------------
+checking for SO_PASSCRED
+
+
+----------------------------------------
+checking for SA_RESTART
+
+
+----------------------------------------
+checking for require defined symbols (--require-defined)
+

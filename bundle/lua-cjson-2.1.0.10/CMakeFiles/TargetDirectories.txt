@@ -1,0 +1,4 @@
+D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/CMakeFiles/cjson.dir
+D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/CMakeFiles/INSTALL.dir
+D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/CMakeFiles/ALL_BUILD.dir
+D:/Anaconda3/MyCode/Nginx/openresty-1.21.4.1/bundle/lua-cjson-2.1.0.10/CMakeFiles/ZERO_CHECK.dir

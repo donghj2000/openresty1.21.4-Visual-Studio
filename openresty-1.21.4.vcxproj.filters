@@ -1,0 +1,2113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="bundle">
+      <UniqueIdentifier>{81c434aa-73d6-4595-b63b-52e089a3cb05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\array-var-nginx-module-0.05">
+      <UniqueIdentifier>{d68334df-6a9d-44f5-bdc4-33feedf6d65a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\drizzle-nginx-module-0.1.11">
+      <UniqueIdentifier>{83d16d3d-0b44-42c0-b5c0-1268a800dc26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objs">
+      <UniqueIdentifier>{89440f19-37ff-4bb4-8fa6-e8b386505ba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objs\lib">
+      <UniqueIdentifier>{aee6e391-eb03-4938-b292-79c0eeaddc20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\echo-nginx-module-0.62">
+      <UniqueIdentifier>{8b7d76ab-d569-459b-b00b-ca463e61051b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\encrypted-session-nginx-module-0.09">
+      <UniqueIdentifier>{e515f434-2ee7-43cc-b1f4-d2fdd80ee5a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\form-input-nginx-module-0.12">
+      <UniqueIdentifier>{fab13f4d-02c7-46ce-a6db-a3438b35ace7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\headers-more-nginx-module-0.33">
+      <UniqueIdentifier>{8148297e-aa17-45ce-9f4c-bb09c7dcddff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\iconv-nginx-module-0.14">
+      <UniqueIdentifier>{0ba72636-bf68-4fb6-9a8f-3c81afd10453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\LuaJIT-2.1-20220411">
+      <UniqueIdentifier>{a503b4e8-5709-4735-9a2c-156c9bdfa60e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\lua-rds-parser-0.06">
+      <UniqueIdentifier>{b662e0bc-23dd-418c-b290-d1de4c81dd81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\lua-redis-parser-0.13">
+      <UniqueIdentifier>{2f4a4ac7-0808-4e5c-a1c5-f5f7647de802}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\memc-nginx-module-0.19">
+      <UniqueIdentifier>{6b3b69b6-8367-497f-9bbf-d5d478cd35ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\nginx-1.21.4">
+      <UniqueIdentifier>{6f84884b-b588-4adc-a628-3de49ade0e2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\ngx_coolkit-0.2">
+      <UniqueIdentifier>{35c1c152-df16-426f-98a8-c1d0a886a12d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\ngx_devel_kit-0.3.1">
+      <UniqueIdentifier>{95dc9b95-f9b5-4efc-b226-942189cbba86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\ngx_lua_upstream-0.07">
+      <UniqueIdentifier>{e5a7ff5f-a2b0-4571-b75c-fc0dc5b413b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\ngx_lua-0.10.21">
+      <UniqueIdentifier>{b9d03955-8b84-44c4-a5a2-781209e86260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\ngx_postgres-1.0">
+      <UniqueIdentifier>{450a9f9d-71ae-48ac-8575-086573b45fa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\ngx_stream_lua-0.0.11">
+      <UniqueIdentifier>{13eec88b-c2eb-489e-92b9-d7b447881b6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\rds-csv-nginx-module-0.09">
+      <UniqueIdentifier>{db5f1e25-0bd5-481f-85e2-b47fa24a5dbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\rds-json-nginx-module-0.15">
+      <UniqueIdentifier>{b916cf07-1815-4918-b8a9-10edf5e4b188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\redis2-nginx-module-0.15">
+      <UniqueIdentifier>{c3dac14a-0d7b-4908-8f64-a765e5f62fa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\redis-nginx-module-0.3.9">
+      <UniqueIdentifier>{52049ee0-e254-4f9e-bfe5-f2143ab85e9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\set-misc-nginx-module-0.33">
+      <UniqueIdentifier>{baeea188-d7fe-4474-a829-7e5fc1e3eda2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\srcache-nginx-module-0.32">
+      <UniqueIdentifier>{ba87a789-420b-4dfa-8804-b263a3e20bb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\xss-nginx-module-0.06">
+      <UniqueIdentifier>{dbbc0ef9-e34b-4c35-bee9-787f1c560a2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\LuaJIT-2.1-20220411\host">
+      <UniqueIdentifier>{d2e11615-444a-4cf7-a40c-9613466c5612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\ngx_stream_lua-0.0.11\api">
+      <UniqueIdentifier>{6a0daa17-9430-4292-a72c-8c309ef7f7f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\ngx_lua-0.10.21\api">
+      <UniqueIdentifier>{8ca365d8-7bd5-4dc0-bb87-273960e7451d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\ngx_devel_kit-0.3.1\objs">
+      <UniqueIdentifier>{793f9a49-cc3b-4fbb-86cb-8ee05316946b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\ngx_devel_kit-0.3.1\src">
+      <UniqueIdentifier>{4bd2737a-3bd9-41c0-bf2d-ada8d3e30fc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\ngx_devel_kit-0.3.1\src\hash">
+      <UniqueIdentifier>{58e6d2c3-3d1c-4316-a82e-13a525c89e2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\nginx-1.21.4\core">
+      <UniqueIdentifier>{965b8552-3e97-4535-82a6-fa33509de58f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\nginx-1.21.4\event">
+      <UniqueIdentifier>{700b3c1a-7e8c-4cf7-8e68-9c9f6b8f8626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\nginx-1.21.4\http">
+      <UniqueIdentifier>{32d043fe-548e-496d-bf27-dfa969a0eda5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\nginx-1.21.4\os">
+      <UniqueIdentifier>{62864a2d-a04b-499d-9077-e67c715e4a3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\nginx-1.21.4\stream">
+      <UniqueIdentifier>{75d5a58d-4ef5-4b91-be45-c237350b3f6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\nginx-1.21.4\http\modules">
+      <UniqueIdentifier>{53cda98d-2d5c-49f8-93d2-b27721e38f1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\nginx-1.21.4\http\v2">
+      <UniqueIdentifier>{1bbfda6a-26e3-4ed4-9aab-31edaa94a40f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\nginx-1.21.4\os\win32">
+      <UniqueIdentifier>{804bb434-fb68-410f-9de7-a42fa0ac3bce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\nginx-1.21.4\objs">
+      <UniqueIdentifier>{5f282b42-ba1a-4841-b8da-4f7fa12e55b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bundle\nginx-1.21.4\event\modules">
+      <UniqueIdentifier>{dd237930-4acf-420f-b6b5-2586eb76557e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bundle\echo-nginx-module-0.62\src\ddebug.h">
+      <Filter>bundle\echo-nginx-module-0.62</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\echo-nginx-module-0.62\src\ngx_http_echo_echo.h">
+      <Filter>bundle\echo-nginx-module-0.62</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\echo-nginx-module-0.62\src\ngx_http_echo_filter.h">
+      <Filter>bundle\echo-nginx-module-0.62</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\echo-nginx-module-0.62\src\ngx_http_echo_foreach.h">
+      <Filter>bundle\echo-nginx-module-0.62</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\echo-nginx-module-0.62\src\ngx_http_echo_handler.h">
+      <Filter>bundle\echo-nginx-module-0.62</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\echo-nginx-module-0.62\src\ngx_http_echo_location.h">
+      <Filter>bundle\echo-nginx-module-0.62</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\echo-nginx-module-0.62\src\ngx_http_echo_module.h">
+      <Filter>bundle\echo-nginx-module-0.62</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\echo-nginx-module-0.62\src\ngx_http_echo_request_info.h">
+      <Filter>bundle\echo-nginx-module-0.62</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\echo-nginx-module-0.62\src\ngx_http_echo_sleep.h">
+      <Filter>bundle\echo-nginx-module-0.62</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\echo-nginx-module-0.62\src\ngx_http_echo_subrequest.h">
+      <Filter>bundle\echo-nginx-module-0.62</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\echo-nginx-module-0.62\src\ngx_http_echo_timer.h">
+      <Filter>bundle\echo-nginx-module-0.62</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\echo-nginx-module-0.62\src\ngx_http_echo_util.h">
+      <Filter>bundle\echo-nginx-module-0.62</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\echo-nginx-module-0.62\src\ngx_http_echo_var.h">
+      <Filter>bundle\echo-nginx-module-0.62</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\encrypted-session-nginx-module-0.09\src\ddebug.h">
+      <Filter>bundle\encrypted-session-nginx-module-0.09</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\encrypted-session-nginx-module-0.09\src\ngx_http_encrypted_session_cipher.h">
+      <Filter>bundle\encrypted-session-nginx-module-0.09</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\form-input-nginx-module-0.12\src\ddebug.h">
+      <Filter>bundle\form-input-nginx-module-0.12</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\headers-more-nginx-module-0.33\src\ddebug.h">
+      <Filter>bundle\headers-more-nginx-module-0.33</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\headers-more-nginx-module-0.33\src\ngx_http_headers_more_filter_module.h">
+      <Filter>bundle\headers-more-nginx-module-0.33</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\headers-more-nginx-module-0.33\src\ngx_http_headers_more_headers_in.h">
+      <Filter>bundle\headers-more-nginx-module-0.33</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\headers-more-nginx-module-0.33\src\ngx_http_headers_more_headers_out.h">
+      <Filter>bundle\headers-more-nginx-module-0.33</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\headers-more-nginx-module-0.33\src\ngx_http_headers_more_util.h">
+      <Filter>bundle\headers-more-nginx-module-0.33</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\lua-rds-parser-0.06\src\ddebug.h">
+      <Filter>bundle\lua-rds-parser-0.06</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\lua-rds-parser-0.06\src\rds_parser.h">
+      <Filter>bundle\lua-rds-parser-0.06</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\lua-rds-parser-0.06\src\resty_dbd_stream.h">
+      <Filter>bundle\lua-rds-parser-0.06</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\lua-redis-parser-0.13\ddebug.h">
+      <Filter>bundle\lua-redis-parser-0.13</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\memc-nginx-module-0.19\src\ddebug.h">
+      <Filter>bundle\memc-nginx-module-0.19</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\memc-nginx-module-0.19\src\ngx_http_memc_handler.h">
+      <Filter>bundle\memc-nginx-module-0.19</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\memc-nginx-module-0.19\src\ngx_http_memc_module.h">
+      <Filter>bundle\memc-nginx-module-0.19</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\memc-nginx-module-0.19\src\ngx_http_memc_request.h">
+      <Filter>bundle\memc-nginx-module-0.19</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\memc-nginx-module-0.19\src\ngx_http_memc_response.h">
+      <Filter>bundle\memc-nginx-module-0.19</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\memc-nginx-module-0.19\src\ngx_http_memc_util.h">
+      <Filter>bundle\memc-nginx-module-0.19</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\xss-nginx-module-0.06\src\ddebug.h">
+      <Filter>bundle\xss-nginx-module-0.06</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\xss-nginx-module-0.06\src\ngx_http_xss_filter_module.h">
+      <Filter>bundle\xss-nginx-module-0.06</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\xss-nginx-module-0.06\src\ngx_http_xss_util.h">
+      <Filter>bundle\xss-nginx-module-0.06</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\srcache-nginx-module-0.32\src\ddebug.h">
+      <Filter>bundle\srcache-nginx-module-0.32</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\srcache-nginx-module-0.32\src\ngx_http_srcache_fetch.h">
+      <Filter>bundle\srcache-nginx-module-0.32</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\srcache-nginx-module-0.32\src\ngx_http_srcache_filter_module.h">
+      <Filter>bundle\srcache-nginx-module-0.32</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\srcache-nginx-module-0.32\src\ngx_http_srcache_headers.h">
+      <Filter>bundle\srcache-nginx-module-0.32</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\srcache-nginx-module-0.32\src\ngx_http_srcache_store.h">
+      <Filter>bundle\srcache-nginx-module-0.32</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\srcache-nginx-module-0.32\src\ngx_http_srcache_util.h">
+      <Filter>bundle\srcache-nginx-module-0.32</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\srcache-nginx-module-0.32\src\ngx_http_srcache_var.h">
+      <Filter>bundle\srcache-nginx-module-0.32</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\redis2-nginx-module-0.15\src\ddebug.h">
+      <Filter>bundle\redis2-nginx-module-0.15</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\redis2-nginx-module-0.15\src\ngx_http_redis2_handler.h">
+      <Filter>bundle\redis2-nginx-module-0.15</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\redis2-nginx-module-0.15\src\ngx_http_redis2_module.h">
+      <Filter>bundle\redis2-nginx-module-0.15</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\redis2-nginx-module-0.15\src\ngx_http_redis2_reply.h">
+      <Filter>bundle\redis2-nginx-module-0.15</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\redis2-nginx-module-0.15\src\ngx_http_redis2_util.h">
+      <Filter>bundle\redis2-nginx-module-0.15</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\rds-json-nginx-module-0.15\src\ddebug.h">
+      <Filter>bundle\rds-json-nginx-module-0.15</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\rds-json-nginx-module-0.15\src\ngx_http_rds.h">
+      <Filter>bundle\rds-json-nginx-module-0.15</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\rds-json-nginx-module-0.15\src\ngx_http_rds_json_filter_module.h">
+      <Filter>bundle\rds-json-nginx-module-0.15</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\rds-json-nginx-module-0.15\src\ngx_http_rds_json_handler.h">
+      <Filter>bundle\rds-json-nginx-module-0.15</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\rds-json-nginx-module-0.15\src\ngx_http_rds_json_output.h">
+      <Filter>bundle\rds-json-nginx-module-0.15</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\rds-json-nginx-module-0.15\src\ngx_http_rds_json_processor.h">
+      <Filter>bundle\rds-json-nginx-module-0.15</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\rds-json-nginx-module-0.15\src\ngx_http_rds_json_util.h">
+      <Filter>bundle\rds-json-nginx-module-0.15</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\rds-json-nginx-module-0.15\src\ngx_http_rds_utils.h">
+      <Filter>bundle\rds-json-nginx-module-0.15</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\rds-json-nginx-module-0.15\src\resty_dbd_stream.h">
+      <Filter>bundle\rds-json-nginx-module-0.15</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\rds-csv-nginx-module-0.09\src\ddebug.h">
+      <Filter>bundle\rds-csv-nginx-module-0.09</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\rds-csv-nginx-module-0.09\src\ngx_http_rds.h">
+      <Filter>bundle\rds-csv-nginx-module-0.09</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\rds-csv-nginx-module-0.09\src\ngx_http_rds_csv_filter_module.h">
+      <Filter>bundle\rds-csv-nginx-module-0.09</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\rds-csv-nginx-module-0.09\src\ngx_http_rds_csv_output.h">
+      <Filter>bundle\rds-csv-nginx-module-0.09</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\rds-csv-nginx-module-0.09\src\ngx_http_rds_csv_processor.h">
+      <Filter>bundle\rds-csv-nginx-module-0.09</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\rds-csv-nginx-module-0.09\src\ngx_http_rds_csv_util.h">
+      <Filter>bundle\rds-csv-nginx-module-0.09</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\rds-csv-nginx-module-0.09\src\ngx_http_rds_utils.h">
+      <Filter>bundle\rds-csv-nginx-module-0.09</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\rds-csv-nginx-module-0.09\src\resty_dbd_stream.h">
+      <Filter>bundle\rds-csv-nginx-module-0.09</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ddebug.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_args.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_balancer.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_cache.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_clfactory.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_common.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_config.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_consts.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_contentby.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_control.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_coroutine.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_ctx.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_directive.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_exception.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_initby.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_initworkerby.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_input_filters.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_lex.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_log.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_log_ringbuf.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_logby.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_misc.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_output.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_pcrefix.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_phase.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_prereadby.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_probe.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_request.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_script.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_semaphore.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_shdict.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_sleep.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_socket_tcp.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_socket_udp.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_ssl.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_ssl_certby.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_ssl_client_helloby.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_string.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_timer.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_uthread.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_util.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_stream_lua-0.0.11\src\api\ngx_stream_lua_api.h">
+      <Filter>bundle\ngx_stream_lua-0.0.11\api</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ddebug.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_accessby.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_args.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_balancer.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_bodyfilterby.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_cache.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_capturefilter.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_clfactory.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_common.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_config.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_consts.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_contentby.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_control.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_coroutine.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_ctx.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_directive.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_exception.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_exitworkerby.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_headerfilterby.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_headers.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_headers_in.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_headers_out.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_initby.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_initworkerby.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_input_filters.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_lex.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_log.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_log_ringbuf.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_logby.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_misc.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_ndk.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_output.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_pcrefix.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_pipe.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_probe.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_req_body.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_rewriteby.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_script.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_semaphore.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_setby.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_shdict.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_sleep.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_socket_tcp.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_socket_udp.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_ssl.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_ssl_certby.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_ssl_client_helloby.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_ssl_session_fetchby.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_ssl_session_storeby.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_string.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_subrequest.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_timer.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_uri.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_uthread.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_util.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_worker_thread.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\api\ngx_http_lua_api.h">
+      <Filter>bundle\ngx_lua-0.10.21\api</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua_upstream-0.07\src\ddebug.h">
+      <Filter>bundle\ngx_lua_upstream-0.07</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_coolkit-0.2\src\ngx_coolkit_handlers.h">
+      <Filter>bundle\ngx_coolkit-0.2</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_coolkit-0.2\src\ngx_coolkit_module.h">
+      <Filter>bundle\ngx_coolkit-0.2</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_coolkit-0.2\src\ngx_coolkit_variables.h">
+      <Filter>bundle\ngx_coolkit-0.2</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\nginx.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_array.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_buf.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_conf_file.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_config.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_connection.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_core.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_crc.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_crc32.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_crypt.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_cycle.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_file.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_hash.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_inet.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_list.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_log.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_md5.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_module.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_murmurhash.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_open_file_cache.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_palloc.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_parse.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_parse_time.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_proxy_protocol.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_queue.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_radix_tree.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_rbtree.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_regex.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_resolver.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_rwlock.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_sha1.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_shmtx.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_slab.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_string.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_syslog.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\core\ngx_times.h">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\event\ngx_event.h">
+      <Filter>bundle\nginx-1.21.4\event</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\event\ngx_event_connect.h">
+      <Filter>bundle\nginx-1.21.4\event</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\event\ngx_event_openssl.h">
+      <Filter>bundle\nginx-1.21.4\event</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\event\ngx_event_pipe.h">
+      <Filter>bundle\nginx-1.21.4\event</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\event\ngx_event_posted.h">
+      <Filter>bundle\nginx-1.21.4\event</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\event\ngx_event_timer.h">
+      <Filter>bundle\nginx-1.21.4\event</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\http\ngx_http.h">
+      <Filter>bundle\nginx-1.21.4\http</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\http\ngx_http_cache.h">
+      <Filter>bundle\nginx-1.21.4\http</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\http\ngx_http_config.h">
+      <Filter>bundle\nginx-1.21.4\http</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\http\ngx_http_core_module.h">
+      <Filter>bundle\nginx-1.21.4\http</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\http\ngx_http_request.h">
+      <Filter>bundle\nginx-1.21.4\http</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\http\ngx_http_script.h">
+      <Filter>bundle\nginx-1.21.4\http</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\http\ngx_http_upstream.h">
+      <Filter>bundle\nginx-1.21.4\http</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\http\ngx_http_upstream_round_robin.h">
+      <Filter>bundle\nginx-1.21.4\http</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\http\ngx_http_variables.h">
+      <Filter>bundle\nginx-1.21.4\http</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_ssi_filter_module.h">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_ssl_module.h">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\http\v2\ngx_http_v2.h">
+      <Filter>bundle\nginx-1.21.4\http\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\http\v2\ngx_http_v2_module.h">
+      <Filter>bundle\nginx-1.21.4\http\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\stream\ngx_stream.h">
+      <Filter>bundle\nginx-1.21.4\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\stream\ngx_stream_script.h">
+      <Filter>bundle\nginx-1.21.4\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\stream\ngx_stream_ssl_module.h">
+      <Filter>bundle\nginx-1.21.4\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\stream\ngx_stream_upstream.h">
+      <Filter>bundle\nginx-1.21.4\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\stream\ngx_stream_upstream_round_robin.h">
+      <Filter>bundle\nginx-1.21.4\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\stream\ngx_stream_variables.h">
+      <Filter>bundle\nginx-1.21.4\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\os\win32\ngx_alloc.h">
+      <Filter>bundle\nginx-1.21.4\os\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\os\win32\ngx_atomic.h">
+      <Filter>bundle\nginx-1.21.4\os\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\os\win32\ngx_dlopen.h">
+      <Filter>bundle\nginx-1.21.4\os\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\os\win32\ngx_errno.h">
+      <Filter>bundle\nginx-1.21.4\os\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\os\win32\ngx_files.h">
+      <Filter>bundle\nginx-1.21.4\os\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\os\win32\ngx_os.h">
+      <Filter>bundle\nginx-1.21.4\os\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\os\win32\ngx_process.h">
+      <Filter>bundle\nginx-1.21.4\os\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\os\win32\ngx_process_cycle.h">
+      <Filter>bundle\nginx-1.21.4\os\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\os\win32\ngx_shmem.h">
+      <Filter>bundle\nginx-1.21.4\os\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\os\win32\ngx_socket.h">
+      <Filter>bundle\nginx-1.21.4\os\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\os\win32\ngx_thread.h">
+      <Filter>bundle\nginx-1.21.4\os\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\os\win32\ngx_time.h">
+      <Filter>bundle\nginx-1.21.4\os\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\os\win32\ngx_user.h">
+      <Filter>bundle\nginx-1.21.4\os\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\os\win32\ngx_win32_config.h">
+      <Filter>bundle\nginx-1.21.4\os\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\objs\ngx_auto_config.h">
+      <Filter>bundle\nginx-1.21.4\objs</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\objs\ngx_auto_headers.h">
+      <Filter>bundle\nginx-1.21.4\objs</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_devel_kit-0.3.1\objs\ndk_array.h">
+      <Filter>bundle\ngx_devel_kit-0.3.1\objs</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_devel_kit-0.3.1\objs\ndk_conf_cmd_basic.h">
+      <Filter>bundle\ngx_devel_kit-0.3.1\objs</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_devel_kit-0.3.1\objs\ndk_conf_cmd_extra.h">
+      <Filter>bundle\ngx_devel_kit-0.3.1\objs</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_devel_kit-0.3.1\objs\ndk_conf_merge.h">
+      <Filter>bundle\ngx_devel_kit-0.3.1\objs</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_devel_kit-0.3.1\objs\ndk_config.h">
+      <Filter>bundle\ngx_devel_kit-0.3.1\objs</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_devel_kit-0.3.1\objs\ndk_includes.h">
+      <Filter>bundle\ngx_devel_kit-0.3.1\objs</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_devel_kit-0.3.1\objs\ndk_palloc.h">
+      <Filter>bundle\ngx_devel_kit-0.3.1\objs</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_devel_kit-0.3.1\src\hash\md5.h">
+      <Filter>bundle\ngx_devel_kit-0.3.1\src\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_devel_kit-0.3.1\src\hash\sha.h">
+      <Filter>bundle\ngx_devel_kit-0.3.1\src\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_devel_kit-0.3.1\src\ndk.h">
+      <Filter>bundle\ngx_devel_kit-0.3.1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_devel_kit-0.3.1\src\ndk_buf.h">
+      <Filter>bundle\ngx_devel_kit-0.3.1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_devel_kit-0.3.1\src\ndk_complex_path.h">
+      <Filter>bundle\ngx_devel_kit-0.3.1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_devel_kit-0.3.1\src\ndk_complex_value.h">
+      <Filter>bundle\ngx_devel_kit-0.3.1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_devel_kit-0.3.1\src\ndk_conf_file.h">
+      <Filter>bundle\ngx_devel_kit-0.3.1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_devel_kit-0.3.1\src\ndk_http.h">
+      <Filter>bundle\ngx_devel_kit-0.3.1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_devel_kit-0.3.1\src\ndk_http_headers.h">
+      <Filter>bundle\ngx_devel_kit-0.3.1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_devel_kit-0.3.1\src\ndk_log.h">
+      <Filter>bundle\ngx_devel_kit-0.3.1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_devel_kit-0.3.1\src\ndk_parse.h">
+      <Filter>bundle\ngx_devel_kit-0.3.1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_devel_kit-0.3.1\src\ndk_path.h">
+      <Filter>bundle\ngx_devel_kit-0.3.1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_devel_kit-0.3.1\src\ndk_regex.h">
+      <Filter>bundle\ngx_devel_kit-0.3.1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_devel_kit-0.3.1\src\ndk_string.h">
+      <Filter>bundle\ngx_devel_kit-0.3.1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_devel_kit-0.3.1\src\ndk_string_util.h">
+      <Filter>bundle\ngx_devel_kit-0.3.1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_devel_kit-0.3.1\src\ndk_uri.h">
+      <Filter>bundle\ngx_devel_kit-0.3.1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\nginx-1.21.4\src\event\modules\ngx_iocp_module.h">
+      <Filter>bundle\nginx-1.21.4\event\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_autoconf.h">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\set-misc-nginx-module-0.33\src\ddebug.h">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\set-misc-nginx-module-0.33\src\ngx_http_set_base32.h">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\set-misc-nginx-module-0.33\src\ngx_http_set_base64.h">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\set-misc-nginx-module-0.33\src\ngx_http_set_base64url.h">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\set-misc-nginx-module-0.33\src\ngx_http_set_default_value.h">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\set-misc-nginx-module-0.33\src\ngx_http_set_escape_uri.h">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\set-misc-nginx-module-0.33\src\ngx_http_set_hash.h">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\set-misc-nginx-module-0.33\src\ngx_http_set_hex.h">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\set-misc-nginx-module-0.33\src\ngx_http_set_hmac.h">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\set-misc-nginx-module-0.33\src\ngx_http_set_local_today.h">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\set-misc-nginx-module-0.33\src\ngx_http_set_misc_module.h">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\set-misc-nginx-module-0.33\src\ngx_http_set_quote_json.h">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\set-misc-nginx-module-0.33\src\ngx_http_set_quote_sql.h">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\set-misc-nginx-module-0.33\src\ngx_http_set_random.h">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\set-misc-nginx-module-0.33\src\ngx_http_set_rotate.h">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\set-misc-nginx-module-0.33\src\ngx_http_set_secure_random.h">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\set-misc-nginx-module-0.33\src\ngx_http_set_unescape_uri.h">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\set-misc-nginx-module-0.33\src\ngx_http_set_hashed_upstream.h">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\array-var-nginx-module-0.05\src\ddebug.h">
+      <Filter>bundle\array-var-nginx-module-0.05</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle\array-var-nginx-module-0.05\src\ngx_http_array_var_util.h">
+      <Filter>bundle\array-var-nginx-module-0.05</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bundle\echo-nginx-module-0.62\src\ngx_http_echo_echo.c">
+      <Filter>bundle\echo-nginx-module-0.62</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\echo-nginx-module-0.62\src\ngx_http_echo_filter.c">
+      <Filter>bundle\echo-nginx-module-0.62</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\echo-nginx-module-0.62\src\ngx_http_echo_foreach.c">
+      <Filter>bundle\echo-nginx-module-0.62</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\echo-nginx-module-0.62\src\ngx_http_echo_handler.c">
+      <Filter>bundle\echo-nginx-module-0.62</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\echo-nginx-module-0.62\src\ngx_http_echo_location.c">
+      <Filter>bundle\echo-nginx-module-0.62</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\echo-nginx-module-0.62\src\ngx_http_echo_module.c">
+      <Filter>bundle\echo-nginx-module-0.62</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\echo-nginx-module-0.62\src\ngx_http_echo_request_info.c">
+      <Filter>bundle\echo-nginx-module-0.62</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\echo-nginx-module-0.62\src\ngx_http_echo_sleep.c">
+      <Filter>bundle\echo-nginx-module-0.62</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\echo-nginx-module-0.62\src\ngx_http_echo_subrequest.c">
+      <Filter>bundle\echo-nginx-module-0.62</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\echo-nginx-module-0.62\src\ngx_http_echo_timer.c">
+      <Filter>bundle\echo-nginx-module-0.62</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\echo-nginx-module-0.62\src\ngx_http_echo_util.c">
+      <Filter>bundle\echo-nginx-module-0.62</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\echo-nginx-module-0.62\src\ngx_http_echo_var.c">
+      <Filter>bundle\echo-nginx-module-0.62</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\encrypted-session-nginx-module-0.09\src\ngx_http_encrypted_session_cipher.c">
+      <Filter>bundle\encrypted-session-nginx-module-0.09</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\encrypted-session-nginx-module-0.09\src\ngx_http_encrypted_session_module.c">
+      <Filter>bundle\encrypted-session-nginx-module-0.09</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\form-input-nginx-module-0.12\src\ngx_http_form_input_module.c">
+      <Filter>bundle\form-input-nginx-module-0.12</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\headers-more-nginx-module-0.33\src\ngx_http_headers_more_filter_module.c">
+      <Filter>bundle\headers-more-nginx-module-0.33</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\headers-more-nginx-module-0.33\src\ngx_http_headers_more_headers_in.c">
+      <Filter>bundle\headers-more-nginx-module-0.33</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\headers-more-nginx-module-0.33\src\ngx_http_headers_more_headers_out.c">
+      <Filter>bundle\headers-more-nginx-module-0.33</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\headers-more-nginx-module-0.33\src\ngx_http_headers_more_util.c">
+      <Filter>bundle\headers-more-nginx-module-0.33</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\lua-rds-parser-0.06\src\rds_parser.c">
+      <Filter>bundle\lua-rds-parser-0.06</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\lua-redis-parser-0.13\redis-parser.c">
+      <Filter>bundle\lua-redis-parser-0.13</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\memc-nginx-module-0.19\src\ngx_http_memc_handler.c">
+      <Filter>bundle\memc-nginx-module-0.19</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\memc-nginx-module-0.19\src\ngx_http_memc_module.c">
+      <Filter>bundle\memc-nginx-module-0.19</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\memc-nginx-module-0.19\src\ngx_http_memc_request.c">
+      <Filter>bundle\memc-nginx-module-0.19</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\memc-nginx-module-0.19\src\ngx_http_memc_response.c">
+      <Filter>bundle\memc-nginx-module-0.19</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\memc-nginx-module-0.19\src\ngx_http_memc_util.c">
+      <Filter>bundle\memc-nginx-module-0.19</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\xss-nginx-module-0.06\src\ngx_http_xss_filter_module.c">
+      <Filter>bundle\xss-nginx-module-0.06</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\xss-nginx-module-0.06\src\ngx_http_xss_util.c">
+      <Filter>bundle\xss-nginx-module-0.06</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\srcache-nginx-module-0.32\src\ngx_http_srcache_fetch.c">
+      <Filter>bundle\srcache-nginx-module-0.32</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\srcache-nginx-module-0.32\src\ngx_http_srcache_filter_module.c">
+      <Filter>bundle\srcache-nginx-module-0.32</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\srcache-nginx-module-0.32\src\ngx_http_srcache_headers.c">
+      <Filter>bundle\srcache-nginx-module-0.32</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\srcache-nginx-module-0.32\src\ngx_http_srcache_store.c">
+      <Filter>bundle\srcache-nginx-module-0.32</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\srcache-nginx-module-0.32\src\ngx_http_srcache_util.c">
+      <Filter>bundle\srcache-nginx-module-0.32</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\srcache-nginx-module-0.32\src\ngx_http_srcache_var.c">
+      <Filter>bundle\srcache-nginx-module-0.32</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\redis-nginx-module-0.3.9\ngx_http_redis_module.c">
+      <Filter>bundle\redis-nginx-module-0.3.9</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\redis2-nginx-module-0.15\src\ngx_http_redis2_handler.c">
+      <Filter>bundle\redis2-nginx-module-0.15</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\redis2-nginx-module-0.15\src\ngx_http_redis2_module.c">
+      <Filter>bundle\redis2-nginx-module-0.15</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\redis2-nginx-module-0.15\src\ngx_http_redis2_reply.c">
+      <Filter>bundle\redis2-nginx-module-0.15</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\redis2-nginx-module-0.15\src\ngx_http_redis2_util.c">
+      <Filter>bundle\redis2-nginx-module-0.15</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\rds-json-nginx-module-0.15\src\ngx_http_rds_json_filter_module.c">
+      <Filter>bundle\rds-json-nginx-module-0.15</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\rds-json-nginx-module-0.15\src\ngx_http_rds_json_handler.c">
+      <Filter>bundle\rds-json-nginx-module-0.15</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\rds-json-nginx-module-0.15\src\ngx_http_rds_json_output.c">
+      <Filter>bundle\rds-json-nginx-module-0.15</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\rds-json-nginx-module-0.15\src\ngx_http_rds_json_processor.c">
+      <Filter>bundle\rds-json-nginx-module-0.15</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\rds-json-nginx-module-0.15\src\ngx_http_rds_json_util.c">
+      <Filter>bundle\rds-json-nginx-module-0.15</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\rds-csv-nginx-module-0.09\src\ngx_http_rds_csv_filter_module.c">
+      <Filter>bundle\rds-csv-nginx-module-0.09</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\rds-csv-nginx-module-0.09\src\ngx_http_rds_csv_output.c">
+      <Filter>bundle\rds-csv-nginx-module-0.09</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\rds-csv-nginx-module-0.09\src\ngx_http_rds_csv_processor.c">
+      <Filter>bundle\rds-csv-nginx-module-0.09</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\rds-csv-nginx-module-0.09\src\ngx_http_rds_csv_util.c">
+      <Filter>bundle\rds-csv-nginx-module-0.09</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_api.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_args.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_balancer.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_cache.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_clfactory.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_config.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_consts.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_contentby.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_control.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_coroutine.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_ctx.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_directive.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_exception.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_initby.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_initworkerby.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_input_filters.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_lex.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_log.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_log_ringbuf.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_logby.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_misc.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_module.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_output.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_pcrefix.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_phase.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_prereadby.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_regex.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_request.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_script.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_semaphore.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_shdict.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_sleep.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_socket_tcp.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_socket_udp.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_ssl.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_ssl_certby.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_ssl_client_helloby.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_string.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_time.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_timer.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_uthread.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_util.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_variable.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_stream_lua-0.0.11\src\ngx_stream_lua_worker.c">
+      <Filter>bundle\ngx_stream_lua-0.0.11</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_accessby.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_api.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_args.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_balancer.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_bodyfilterby.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_cache.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_capturefilter.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_clfactory.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_config.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_consts.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_contentby.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_control.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_coroutine.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_ctx.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_directive.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_exception.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_exitworkerby.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_headerfilterby.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_headers.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_headers_in.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_headers_out.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_initby.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_initworkerby.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_input_filters.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_lex.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_log.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_log_ringbuf.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_logby.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_misc.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_module.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_ndk.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_output.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_pcrefix.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_phase.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_pipe.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_regex.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_req_body.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_req_method.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_rewriteby.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_script.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_semaphore.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_setby.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_shdict.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_sleep.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_socket_tcp.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_socket_udp.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_ssl.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_ssl_certby.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_ssl_client_helloby.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_ssl_ocsp.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_ssl_session_fetchby.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_ssl_session_storeby.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_string.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_subrequest.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_time.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_timer.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_uri.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_uthread.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_util.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_variable.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_worker.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua-0.10.21\src\ngx_http_lua_worker_thread.c">
+      <Filter>bundle\ngx_lua-0.10.21</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_lua_upstream-0.07\src\ngx_http_lua_upstream_module.c">
+      <Filter>bundle\ngx_lua_upstream-0.07</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_coolkit-0.2\src\ngx_coolkit_handlers.c">
+      <Filter>bundle\ngx_coolkit-0.2</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_coolkit-0.2\src\ngx_coolkit_module.c">
+      <Filter>bundle\ngx_coolkit-0.2</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_coolkit-0.2\src\ngx_coolkit_variables.c">
+      <Filter>bundle\ngx_coolkit-0.2</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\nginx.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_array.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_buf.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_conf_file.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_connection.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_cpuinfo.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_crc32.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_crypt.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_cycle.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_file.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_hash.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_inet.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_list.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_log.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_md5.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_module.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_murmurhash.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_open_file_cache.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_output_chain.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_palloc.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_parse.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_parse_time.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_proxy_protocol.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_queue.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_radix_tree.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_rbtree.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_regex.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_resolver.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_rwlock.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_sha1.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_shmtx.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_slab.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_spinlock.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_string.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_syslog.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\core\ngx_times.c">
+      <Filter>bundle\nginx-1.21.4\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\event\ngx_event.c">
+      <Filter>bundle\nginx-1.21.4\event</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\event\ngx_event_accept.c">
+      <Filter>bundle\nginx-1.21.4\event</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\event\ngx_event_acceptex.c">
+      <Filter>bundle\nginx-1.21.4\event</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\event\ngx_event_connect.c">
+      <Filter>bundle\nginx-1.21.4\event</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\event\ngx_event_openssl.c">
+      <Filter>bundle\nginx-1.21.4\event</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\event\ngx_event_openssl_stapling.c">
+      <Filter>bundle\nginx-1.21.4\event</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\event\ngx_event_pipe.c">
+      <Filter>bundle\nginx-1.21.4\event</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\event\ngx_event_posted.c">
+      <Filter>bundle\nginx-1.21.4\event</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\event\ngx_event_timer.c">
+      <Filter>bundle\nginx-1.21.4\event</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\event\ngx_event_udp.c">
+      <Filter>bundle\nginx-1.21.4\event</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\ngx_http.c">
+      <Filter>bundle\nginx-1.21.4\http</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\ngx_http_copy_filter_module.c">
+      <Filter>bundle\nginx-1.21.4\http</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\ngx_http_core_module.c">
+      <Filter>bundle\nginx-1.21.4\http</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\ngx_http_file_cache.c">
+      <Filter>bundle\nginx-1.21.4\http</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\ngx_http_header_filter_module.c">
+      <Filter>bundle\nginx-1.21.4\http</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\ngx_http_parse.c">
+      <Filter>bundle\nginx-1.21.4\http</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\ngx_http_postpone_filter_module.c">
+      <Filter>bundle\nginx-1.21.4\http</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\ngx_http_request.c">
+      <Filter>bundle\nginx-1.21.4\http</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\ngx_http_request_body.c">
+      <Filter>bundle\nginx-1.21.4\http</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\ngx_http_script.c">
+      <Filter>bundle\nginx-1.21.4\http</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\ngx_http_special_response.c">
+      <Filter>bundle\nginx-1.21.4\http</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\ngx_http_upstream.c">
+      <Filter>bundle\nginx-1.21.4\http</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\ngx_http_upstream_round_robin.c">
+      <Filter>bundle\nginx-1.21.4\http</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\ngx_http_variables.c">
+      <Filter>bundle\nginx-1.21.4\http</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\ngx_http_write_filter_module.c">
+      <Filter>bundle\nginx-1.21.4\http</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_access_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_addition_filter_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_auth_basic_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_auth_request_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_autoindex_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_browser_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_charset_filter_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_chunked_filter_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_dav_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_empty_gif_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_fastcgi_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_flv_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_geo_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_grpc_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_gunzip_filter_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_gzip_filter_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_gzip_static_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_headers_filter_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_index_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_limit_conn_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_limit_req_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_log_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_map_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_memcached_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_mirror_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_mp4_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_not_modified_filter_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_proxy_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_random_index_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_range_filter_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_realip_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_referer_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_rewrite_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_scgi_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_secure_link_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_slice_filter_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_split_clients_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_ssi_filter_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_ssl_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_static_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_stub_status_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_sub_filter_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_try_files_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_upstream_hash_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_upstream_ip_hash_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_upstream_keepalive_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_upstream_least_conn_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_upstream_random_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_upstream_zone_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_userid_filter_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\modules\ngx_http_uwsgi_module.c">
+      <Filter>bundle\nginx-1.21.4\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\v2\ngx_http_v2.c">
+      <Filter>bundle\nginx-1.21.4\http\v2</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\v2\ngx_http_v2_encode.c">
+      <Filter>bundle\nginx-1.21.4\http\v2</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\v2\ngx_http_v2_filter_module.c">
+      <Filter>bundle\nginx-1.21.4\http\v2</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\v2\ngx_http_v2_huff_decode.c">
+      <Filter>bundle\nginx-1.21.4\http\v2</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\v2\ngx_http_v2_huff_encode.c">
+      <Filter>bundle\nginx-1.21.4\http\v2</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\v2\ngx_http_v2_module.c">
+      <Filter>bundle\nginx-1.21.4\http\v2</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\http\v2\ngx_http_v2_table.c">
+      <Filter>bundle\nginx-1.21.4\http\v2</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\stream\ngx_stream.c">
+      <Filter>bundle\nginx-1.21.4\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\stream\ngx_stream_access_module.c">
+      <Filter>bundle\nginx-1.21.4\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\stream\ngx_stream_core_module.c">
+      <Filter>bundle\nginx-1.21.4\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\stream\ngx_stream_geo_module.c">
+      <Filter>bundle\nginx-1.21.4\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\stream\ngx_stream_handler.c">
+      <Filter>bundle\nginx-1.21.4\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\stream\ngx_stream_limit_conn_module.c">
+      <Filter>bundle\nginx-1.21.4\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\stream\ngx_stream_log_module.c">
+      <Filter>bundle\nginx-1.21.4\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\stream\ngx_stream_map_module.c">
+      <Filter>bundle\nginx-1.21.4\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\stream\ngx_stream_proxy_module.c">
+      <Filter>bundle\nginx-1.21.4\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\stream\ngx_stream_realip_module.c">
+      <Filter>bundle\nginx-1.21.4\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\stream\ngx_stream_return_module.c">
+      <Filter>bundle\nginx-1.21.4\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\stream\ngx_stream_script.c">
+      <Filter>bundle\nginx-1.21.4\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\stream\ngx_stream_set_module.c">
+      <Filter>bundle\nginx-1.21.4\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\stream\ngx_stream_split_clients_module.c">
+      <Filter>bundle\nginx-1.21.4\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\stream\ngx_stream_ssl_module.c">
+      <Filter>bundle\nginx-1.21.4\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\stream\ngx_stream_ssl_preread_module.c">
+      <Filter>bundle\nginx-1.21.4\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\stream\ngx_stream_upstream.c">
+      <Filter>bundle\nginx-1.21.4\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\stream\ngx_stream_upstream_hash_module.c">
+      <Filter>bundle\nginx-1.21.4\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\stream\ngx_stream_upstream_least_conn_module.c">
+      <Filter>bundle\nginx-1.21.4\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\stream\ngx_stream_upstream_random_module.c">
+      <Filter>bundle\nginx-1.21.4\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\stream\ngx_stream_upstream_round_robin.c">
+      <Filter>bundle\nginx-1.21.4\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\stream\ngx_stream_upstream_zone_module.c">
+      <Filter>bundle\nginx-1.21.4\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\stream\ngx_stream_variables.c">
+      <Filter>bundle\nginx-1.21.4\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\stream\ngx_stream_write_filter_module.c">
+      <Filter>bundle\nginx-1.21.4\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\os\win32\ngx_alloc.c">
+      <Filter>bundle\nginx-1.21.4\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\os\win32\ngx_dlopen.c">
+      <Filter>bundle\nginx-1.21.4\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\os\win32\ngx_errno.c">
+      <Filter>bundle\nginx-1.21.4\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\os\win32\ngx_event_log.c">
+      <Filter>bundle\nginx-1.21.4\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\os\win32\ngx_files.c">
+      <Filter>bundle\nginx-1.21.4\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\os\win32\ngx_process.c">
+      <Filter>bundle\nginx-1.21.4\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\os\win32\ngx_process_cycle.c">
+      <Filter>bundle\nginx-1.21.4\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\os\win32\ngx_shmem.c">
+      <Filter>bundle\nginx-1.21.4\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\os\win32\ngx_socket.c">
+      <Filter>bundle\nginx-1.21.4\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\os\win32\ngx_stat.c">
+      <Filter>bundle\nginx-1.21.4\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\os\win32\ngx_thread.c">
+      <Filter>bundle\nginx-1.21.4\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\os\win32\ngx_time.c">
+      <Filter>bundle\nginx-1.21.4\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\os\win32\ngx_udp_wsarecv.c">
+      <Filter>bundle\nginx-1.21.4\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\os\win32\ngx_user.c">
+      <Filter>bundle\nginx-1.21.4\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\os\win32\ngx_win32_init.c">
+      <Filter>bundle\nginx-1.21.4\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\os\win32\ngx_wsarecv.c">
+      <Filter>bundle\nginx-1.21.4\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\os\win32\ngx_wsarecv_chain.c">
+      <Filter>bundle\nginx-1.21.4\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\os\win32\ngx_wsasend.c">
+      <Filter>bundle\nginx-1.21.4\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\os\win32\ngx_wsasend_chain.c">
+      <Filter>bundle\nginx-1.21.4\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\objs\ngx_modules.c">
+      <Filter>bundle\nginx-1.21.4\objs</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_devel_kit-0.3.1\src\hash\murmurhash2.c">
+      <Filter>bundle\ngx_devel_kit-0.3.1\src\hash</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_devel_kit-0.3.1\src\ndk.c">
+      <Filter>bundle\ngx_devel_kit-0.3.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_devel_kit-0.3.1\src\ndk_buf.c">
+      <Filter>bundle\ngx_devel_kit-0.3.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_devel_kit-0.3.1\src\ndk_complex_path.c">
+      <Filter>bundle\ngx_devel_kit-0.3.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_devel_kit-0.3.1\src\ndk_complex_value.c">
+      <Filter>bundle\ngx_devel_kit-0.3.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_devel_kit-0.3.1\src\ndk_conf_file.c">
+      <Filter>bundle\ngx_devel_kit-0.3.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_devel_kit-0.3.1\src\ndk_http.c">
+      <Filter>bundle\ngx_devel_kit-0.3.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_devel_kit-0.3.1\src\ndk_log.c">
+      <Filter>bundle\ngx_devel_kit-0.3.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_devel_kit-0.3.1\src\ndk_path.c">
+      <Filter>bundle\ngx_devel_kit-0.3.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_devel_kit-0.3.1\src\ndk_regex.c">
+      <Filter>bundle\ngx_devel_kit-0.3.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_devel_kit-0.3.1\src\ndk_string.c">
+      <Filter>bundle\ngx_devel_kit-0.3.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\ngx_devel_kit-0.3.1\src\ndk_uri.c">
+      <Filter>bundle\ngx_devel_kit-0.3.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\event\modules\ngx_iocp_module.c">
+      <Filter>bundle\nginx-1.21.4\event\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\nginx-1.21.4\src\event\modules\ngx_win32_select_module.c">
+      <Filter>bundle\nginx-1.21.4\event\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\LuaJIT-2.1-20220411\src\lj_clib.c">
+      <Filter>bundle\LuaJIT-2.1-20220411</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\LuaJIT-2.1-20220411\src\lib_package.c">
+      <Filter>bundle\LuaJIT-2.1-20220411</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\set-misc-nginx-module-0.33\src\ngx_http_set_base32.c">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\set-misc-nginx-module-0.33\src\ngx_http_set_base64.c">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\set-misc-nginx-module-0.33\src\ngx_http_set_base64url.c">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\set-misc-nginx-module-0.33\src\ngx_http_set_default_value.c">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\set-misc-nginx-module-0.33\src\ngx_http_set_escape_uri.c">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\set-misc-nginx-module-0.33\src\ngx_http_set_hash.c">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\set-misc-nginx-module-0.33\src\ngx_http_set_hex.c">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\set-misc-nginx-module-0.33\src\ngx_http_set_hmac.c">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\set-misc-nginx-module-0.33\src\ngx_http_set_local_today.c">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\set-misc-nginx-module-0.33\src\ngx_http_set_misc_module.c">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\set-misc-nginx-module-0.33\src\ngx_http_set_quote_json.c">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\set-misc-nginx-module-0.33\src\ngx_http_set_quote_sql.c">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\set-misc-nginx-module-0.33\src\ngx_http_set_random.c">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\set-misc-nginx-module-0.33\src\ngx_http_set_rotate.c">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\set-misc-nginx-module-0.33\src\ngx_http_set_secure_random.c">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\set-misc-nginx-module-0.33\src\ngx_http_set_unescape_uri.c">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\set-misc-nginx-module-0.33\src\ngx_http_set_hashed_upstream.c">
+      <Filter>bundle\set-misc-nginx-module-0.33</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\array-var-nginx-module-0.05\src\ngx_http_array_var_module.c">
+      <Filter>bundle\array-var-nginx-module-0.05</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle\array-var-nginx-module-0.05\src\ngx_http_array_var_util.c">
+      <Filter>bundle\array-var-nginx-module-0.05</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bundle\memc-nginx-module-0.19\src\memc_common.rl">
+      <Filter>bundle\memc-nginx-module-0.19</Filter>
+    </None>
+    <None Include="bundle\memc-nginx-module-0.19\src\memc_delete.rl">
+      <Filter>bundle\memc-nginx-module-0.19</Filter>
+    </None>
+    <None Include="bundle\memc-nginx-module-0.19\src\memc_flush_all.rl">
+      <Filter>bundle\memc-nginx-module-0.19</Filter>
+    </None>
+    <None Include="bundle\memc-nginx-module-0.19\src\memc_incr_decr.rl">
+      <Filter>bundle\memc-nginx-module-0.19</Filter>
+    </None>
+    <None Include="bundle\memc-nginx-module-0.19\src\memc_stats.rl">
+      <Filter>bundle\memc-nginx-module-0.19</Filter>
+    </None>
+    <None Include="bundle\memc-nginx-module-0.19\src\memc_storage.rl">
+      <Filter>bundle\memc-nginx-module-0.19</Filter>
+    </None>
+    <None Include="bundle\memc-nginx-module-0.19\src\memc_version.rl">
+      <Filter>bundle\memc-nginx-module-0.19</Filter>
+    </None>
+    <None Include="bundle\memc-nginx-module-0.19\src\ngx_http_memc_response.rl">
+      <Filter>bundle\memc-nginx-module-0.19</Filter>
+    </None>
+    <None Include="bundle\xss-nginx-module-0.06\src\ngx_http_xss_util.rl">
+      <Filter>bundle\xss-nginx-module-0.06</Filter>
+    </None>
+    <None Include="bundle\redis2-nginx-module-0.15\src\common.rl">
+      <Filter>bundle\redis2-nginx-module-0.15</Filter>
+    </None>
+    <None Include="bundle\redis2-nginx-module-0.15\src\multi_bulk_reply.rl">
+      <Filter>bundle\redis2-nginx-module-0.15</Filter>
+    </None>
+    <None Include="bundle\redis2-nginx-module-0.15\src\ngx_http_redis2_reply.rl">
+      <Filter>bundle\redis2-nginx-module-0.15</Filter>
+    </None>
+    <None Include="bin\libcrypto.def" />
+    <None Include="bin\libssl.def" />
+  </ItemGroup>
+</Project>
