@@ -538,7 +538,7 @@ ngx_stream_lua_ssl_client_hello_by_chunk(lua_State *L,
     return rc;
 }
 
- 
+
 EXE_LIBRARY_API int ngx_stream_lua_ffi_ssl_get_client_hello_server_name(
     ngx_stream_lua_request_t *r, const char **name,
     size_t *namelen, char **err)

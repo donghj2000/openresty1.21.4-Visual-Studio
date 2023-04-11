@@ -25,10 +25,10 @@ static ngx_http_lua_sema_t *ngx_http_lua_alloc_sema(void);
 static void ngx_http_lua_free_sema(ngx_http_lua_sema_t *sem);
 static ngx_int_t ngx_http_lua_sema_resume(ngx_http_request_t *r);
 EXE_LIBRARY_API int ngx_http_lua_ffi_sema_new(ngx_http_lua_sema_t **psem,
-    int n, char **errmsg);
+	int n, char **errmsg);
 EXE_LIBRARY_API int ngx_http_lua_ffi_sema_post(ngx_http_lua_sema_t *sem, int n);
 EXE_LIBRARY_API int ngx_http_lua_ffi_sema_wait(ngx_http_request_t *r,
-    ngx_http_lua_sema_t *sem, int wait_ms, u_char *err, size_t *errlen);
+	ngx_http_lua_sema_t *sem, int wait_ms, u_char *err, size_t *errlen);
 static void ngx_http_lua_sema_cleanup(void *data);
 static void ngx_http_lua_sema_handler(ngx_event_t *ev);
 static void ngx_http_lua_sema_timeout_handler(ngx_event_t *ev);
@@ -367,11 +367,11 @@ ngx_http_lua_ffi_sema_wait(ngx_http_request_t *r,
                    "resources: %d, event posted: %d",
                    sem, wait_ms, sem->resource_count,
 //#if (nginx_version >= 1007005)
-                   (int) sem->sem_event.posted
+		(int)sem->sem_event.posted
 //#else
-//                   sem->sem_event.prev ? 1 : 0
+//      sem->sem_event.prev ? 1 : 0
 //#endif
-                   );
+		);
 
     ctx = ngx_http_get_module_ctx(r, ngx_http_lua_module);
     if (ctx == NULL) {

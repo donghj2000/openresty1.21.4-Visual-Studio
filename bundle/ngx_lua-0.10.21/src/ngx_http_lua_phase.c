@@ -12,6 +12,7 @@
 
 #include "ngx_http_lua_common.h"
 
+
 EXE_LIBRARY_API int
 ngx_http_lua_ffi_get_phase(ngx_http_request_t *r, char **err)
 {
