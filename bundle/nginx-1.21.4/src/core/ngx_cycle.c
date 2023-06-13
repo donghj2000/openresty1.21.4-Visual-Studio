@@ -768,6 +768,13 @@ old_shm_zone_done:
 
     if (ngx_process == NGX_PROCESS_MASTER || ngx_is_init_cycle(old_cycle)) {
 
+#if (NGX_WIN32)
+		ls = cycle->listening.elts;
+		for (i = 0; i < cycle->listening.nelts; i++) {
+			ls[i].previous = NULL;
+		}
+#endif
+
         if (ngx_is_init_cycle(old_cycle)) {
             saved_init_cycle_pool = NULL;
         }

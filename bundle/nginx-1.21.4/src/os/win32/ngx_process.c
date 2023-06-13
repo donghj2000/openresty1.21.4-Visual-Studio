@@ -215,7 +215,7 @@ ngx_execute(ngx_cycle_t *cycle, ngx_exec_ctx_t *ctx)
     ngx_memzero(&pi, sizeof(PROCESS_INFORMATION));
 
     if (CreateProcess(ctx->path, ctx->args,
-                      NULL, NULL, 0, CREATE_NO_WINDOW, NULL, NULL, &si, &pi)
+                      NULL, NULL, TRUE, CREATE_NO_WINDOW, NULL, NULL, &si, &pi)
         == 0)
     {
         ngx_log_error(NGX_LOG_CRIT, cycle->log, ngx_errno,

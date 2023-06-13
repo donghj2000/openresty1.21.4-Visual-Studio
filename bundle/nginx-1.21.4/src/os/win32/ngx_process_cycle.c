@@ -113,8 +113,8 @@ ngx_master_process_cycle(ngx_cycle_t *cycle)
     events[1] = ngx_quit_event;
     events[2] = ngx_reopen_event;
     events[3] = ngx_reload_event;
-
-    ngx_close_listening_sockets(cycle);
+    //child process will inherit ls socket, so don't close it.
+    //ngx_close_listening_sockets(cycle);
 
     if (ngx_start_worker_processes(cycle, NGX_PROCESS_RESPAWN) == 0) {
         exit(2);
@@ -371,6 +371,29 @@ ngx_start_worker_processes(ngx_cycle_t *cycle, ngx_int_t type)
     ngx_core_conf_t  *ccf;
 
     ngx_log_error(NGX_LOG_NOTICE, cycle->log, 0, "start worker processes");
+
+	// write ls socket to ENV, so child process can inherit it.
+	{
+		char *var;
+		u_char *p;
+		ngx_listening_t   *ls;
+		var = ngx_alloc(sizeof(NGINX_VAR)
+			+ cycle->listening.nelts * (NGX_INT32_LEN + 1) + 2,
+			cycle->log);
+		if (var == NULL) {
+			return NGX_INVALID_PID;
+		}
+
+		p = var;
+
+		ls = cycle->listening.elts;
+		for (n = 0; n < cycle->listening.nelts; n++) {
+			p = ngx_sprintf(p, "%ud;", ls[n].fd);
+		}
+
+		*p = '\0';
+		_putenv_s(NGINX_VAR,var);
+	}
 
     ccf = (ngx_core_conf_t *) ngx_get_conf(cycle->conf_ctx, ngx_core_module);
 
